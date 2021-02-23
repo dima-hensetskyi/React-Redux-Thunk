@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(209, 206, 206, 0.473);
+}
+* {
+  margin: 0;
+}
+.nav-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(rgba(5, 5, 5, 0.63), rgba(0, 0, 0, 0.5)),
+    url(https://www.rabstol.net/uploads/gallery/main/633/rabstol_net_canada_31.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100%;
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 300px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.app-link :hover {
+  cursor: pointer;
+}
+.active-link {
+  color: white;
+  font-weight: 500;
+}
+.alert {
+  margin-left: 100px;
+  margin-bottom: -100px;
+  width: 400px;
+  height: 150px;
+}

@@ -1,0 +1,86 @@
+.posts-list {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* .post {
+  padding: 5px;
+  margin-top: 30px;
+  background-color: #202058fb;
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0 172 193 / 40%);
+  width: 600px;
+  height: 380px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+} */
+.author {
+  font-size: 120%;
+  display: flex;
+  width: 500px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.author img {
+  border-radius: 100px;
+  max-height: 80px;
+  max-width: 80px;
+  margin-left: 5px;
+}
+.author p {
+  margin: 0px 0 0 15px;
+}
+.name {
+  font-weight: bold;
+}
+.autor-information {
+  color: #ffffffa1;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  text-align: left;
+  font-size: 120%;
+}
+.content-text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.content img {
+  width: 500px;
+  height: 300px;
+  margin-left: -30px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.badges {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  color: #ffffffa1;
+}
+.badges :hover {
+  color: white;
+}
+.badges :active {
+  color: red;
+}
+.badg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40px;
+}
+.post-form {
+  margin-left: 300px;
+}
+.select {
+  width: 70%;
+}
