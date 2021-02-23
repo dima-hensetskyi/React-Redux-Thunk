@@ -1,4 +1,4 @@
-# Домашнє завдання №21 по темі: "Redux-Thunk"\*
+# Домашнє завдання №21 по темі: "Redux-Thunk"
 
 ## Завдання Basic:
 
@@ -24,3 +24,4 @@
 • Отримання усіх користувачів: GET --- /users/
 • Створення нового твіта: POST --- /tweets/. Параметри: userId(number, обов'язково з існуючих юзерів), content(string), image(string)
 • Отримання усіх твітів: GET --- /tweets/
+[Результат](https://dima-hensetskyi.github.io/React-Redux-Thunk/#/users)
