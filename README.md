@@ -19,9 +19,9 @@
 
 ### Документація по REST API сервера
 
-• Ім'я хоста з яким ви взаємодієте: http://domer.tech:9999/
-• Створення користувача: POST --- /users/. Параметри: name(string), username(string), avatar(string)
-• Отримання усіх користувачів: GET --- /users/
-• Створення нового твіта: POST --- /tweets/. Параметри: userId(number, обов'язково з існуючих юзерів), content(string), image(string)
-• Отримання усіх твітів: GET --- /tweets/
-[Результат](https://dima-hensetskyi.github.io/React-Redux-Thunk/#/users)
+1. Ім'я хоста з яким ви взаємодієте: http://domer.tech:9999/
+2. Створення користувача: POST --- /users/. Параметри: name(string), username(string), avatar(string)
+3. Отримання усіх користувачів: GET --- /users/
+4. Створення нового твіта: POST --- /tweets/. Параметри: userId(number, обов'язково з існуючих юзерів), content(string), image(string)
+5. Отримання усіх твітів: GET --- /tweets/
+6. [Результат](https://dima-hensetskyi.github.io/React-Redux-Thunk/#/users)
